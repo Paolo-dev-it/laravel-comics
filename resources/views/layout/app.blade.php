@@ -9,7 +9,20 @@
 </head>
 
 <body>
+    <header>
+        @include('partials.header')
+    </header>
+    <section>
+        @include('partials.jumbotron')
+    </section>
 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+    </style>
 </body>
 
 </html>
