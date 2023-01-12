@@ -10,31 +10,35 @@
 
 <body>
 
-    <div class="gen">
-        <nav>
-            <div class="logo">
-                <img src="{{ asset('img/dc-logo.png') }}" alt="">
-            </div>
-            <div class="navList">
-                <div class="listContainer"><a href="#">CHARACTERS</a></div>
-                <div class="listContainer"><a href="#">COMICS</a></div>
-                <div class="listContainer"><a href="#">MOVIES</a></div>
-                <div class="listContainer"><a href="#">TV</a></div>
-                <div class="listContainer"><a href="#">GAMES</a></div>
-                <div class="listContainer"><a href="#">COLLECTIBLES</a></div>
-                <div class="listContainer"><a href="#">VIDEOS</a></div>
-                <div class="listContainer"><a href="#">FANS</a></div>
-                <div class="listContainer"><a href="#">NEWS</a></div>
-                <div class="listContainer"><a href="#">SHOP</a></div>
-            </div>
-        </nav>
-    </div>
+    <header>
+        <div class="gen">
+            <nav>
+                <div class="logo">
+                    <img src="{{ asset('img/dc-logo.png') }}" alt="">
+                </div>
+                <div class="navList">
+                    <div class="listContainer"><a href="#">CHARACTERS</a></div>
+                    <div class="listContainer"><a href="#">COMICS</a></div>
+                    <div class="listContainer"><a href="#">MOVIES</a></div>
+                    <div class="listContainer"><a href="#">TV</a></div>
+                    <div class="listContainer"><a href="#">GAMES</a></div>
+                    <div class="listContainer"><a href="#">COLLECTIBLES</a></div>
+                    <div class="listContainer"><a href="#">VIDEOS</a></div>
+                    <div class="listContainer"><a href="#">FANS</a></div>
+                    <div class="listContainer"><a href="#">NEWS</a></div>
+                    <div class="listContainer"><a href="#">SHOP</a></div>
+                </div>
+            </nav>
+        </div>
+    </header>
 
     <style>
         .gen {
             background-color: white;
             width: 100%;
         }
+
+
 
         nav {
             display: flex;
@@ -77,8 +81,9 @@
             color: blue;
         }
 
-        img {
-            width: 70px;
+        .logo img {
+            width: 100px;
+            height: 100px;
         }
     </style>
 

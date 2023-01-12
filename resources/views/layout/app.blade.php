@@ -9,18 +9,26 @@
 </head>
 
 <body>
-    <header>
-        @include('partials.header')
-    </header>
-    <section>
-        @include('partials.jumbotron')
-    </section>
+
+    @include('partials.header')
+
+    @include('partials.jumbotron')
+
+    @include('partials.main')
+
+    @include('partials.footer')
+
+    @include('partials.socials')
 
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box
+        }
+
+        body {
+            font-family: sans-serif
         }
     </style>
 </body>

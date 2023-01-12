@@ -1,10 +1,12 @@
-<div class="gen">
-    <div class="jumbotron">
-        <div class="currentSeries">
-            <p>CURRENT SERIES</p>
+<section>
+    <div class="gen">
+        <div class="jumbotron">
+            <div class="currentSeries">
+                <p>CURRENT SERIES</p>
+            </div>
         </div>
     </div>
-</div>
+</section>
 
 
 <style lang="scss" scoped>
@@ -15,7 +17,7 @@
     .jumbotron {
         width: 100%;
         height: 300px;
-        background-image: url(../img/jumbotron.jpg);
+        background-image: url('../img/jumbotron.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
