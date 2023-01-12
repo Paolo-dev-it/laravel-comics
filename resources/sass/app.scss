@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: sans-serif
+}
+
 /** HEADER */
 
 .genA {
@@ -80,7 +90,7 @@ main {
 
 .containerComic {
     padding: 40px;
-    width: 70%;
+    width: 85%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -90,9 +100,9 @@ main {
 .comicCard {
     width: calc(100%/6);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     color: white;
-    gap: 10px;
+    
 }
 
 /**** BLUE BAR ***/
@@ -142,13 +152,13 @@ p {
 /**** FOOTER ***/
 
 .genC {
-    background-image: url(../img/footer-bg.jpg);
+    background-image: url('../img/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
 
-.leftLi h3 {
+.leftLi,.rightLi,.fullRightLi h3 {
     color: white;
 
 
