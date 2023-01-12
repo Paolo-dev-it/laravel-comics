@@ -85,7 +85,39 @@ main {
 .comicCard {
   width: 16.6666666667%;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  color: white;
+  gap: 10px;
+}
+
+/**** BLUE BAR ***/
+.genZ {
+  background-color: rgb(2, 130, 249);
+  width: 100%;
+}
+.genZ nav {
+  background-color: rgb(2, 130, 249);
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding: 3rem;
+}
+.genZ nav div {
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+.genZ nav div img {
+  width: 50px;
+  height: 60px;
+}
+.genZ nav div span p {
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+p {
   color: white;
 }
 

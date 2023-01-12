@@ -17,6 +17,8 @@
 
     @yield('main-content')
 
+    @include('partials.blueSection')
+
     @include('partials.footer')
 
     @include('partials.socials')
