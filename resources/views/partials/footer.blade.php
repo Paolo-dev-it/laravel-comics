@@ -1,5 +1,5 @@
 <footer>
-    <div class="genz">
+    <div class="genC">
         <div class="flex">
             <div class="leftLi">
                 <h3>DC COMICS</h3>
@@ -55,43 +55,3 @@
 
     </div>
 </footer>
-<style>
-    .genz {
-        background-image: url('../img/footer-bg.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-    }
-
-    h3 {
-        color: white;
-    }
-
-    li {
-        list-style: none;
-        color: gray;
-    }
-
-    ul {
-        padding-inline-start: 0px;
-    }
-
-    .flex {
-        display: flex;
-        width: 90%;
-        margin: auto;
-    }
-
-
-    .flex div {
-        padding: 1rem;
-    }
-
-    .dcBg {
-        width: 400px;
-        background-image: url('./img/dc-logo-bg.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-left: 300px;
-    }
-</style>
