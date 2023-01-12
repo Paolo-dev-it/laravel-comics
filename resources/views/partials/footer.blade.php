@@ -1,4 +1,4 @@
-<footer>
+{{-- <footer>
     <div class="genC">
         <div class="flex">
             <div class="leftLi">
@@ -54,4 +54,4 @@
         </div>
 
     </div>
-</footer>
+</footer> --}}
