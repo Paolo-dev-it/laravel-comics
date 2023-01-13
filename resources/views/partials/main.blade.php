@@ -26,7 +26,7 @@
                         </div>
                         <div>
                             <h5>{{ $elem['title'] }}</h5>
-                            <p>{!! $elem['description'] !!}</p>
+
                         </div>
                     </a>
 

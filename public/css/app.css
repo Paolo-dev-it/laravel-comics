@@ -99,6 +99,10 @@ main {
   text-transform: uppercase;
 }
 
+.comicCard h5 {
+  color: white;
+}
+
 .genZ {
   background-color: rgb(2, 130, 249);
   width: 100%;
@@ -222,12 +226,59 @@ li {
   background-color: green;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+  margin-top: 15px;
 }
 
 .left-price, .right-price {
   display: flex;
 }
 
+.right-price > p {
+  text-transform: uppercase;
+}
+
+.right-price > button {
+  color: white;
+  background-color: green;
+  margin-left: 20px;
+  border: none;
+}
+
+.img {
+  position: absolute;
+  top: 140px;
+  left: 350px;
+}
+
 .card-desc {
+  color: gray;
+  margin-top: 20px;
+  line-height: 1.5rem;
+}
+
+.second-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-cont p {
   color: black;
+}
+
+.specs-sec span {
+  margin-left: 200px;
+}
+
+.art, .aut {
+  display: flex;
+  margin-top: 30px;
+}
+
+.art p {
+  margin-left: 200px;
+}
+
+.aut p {
+  margin-left: 170px;
 }
