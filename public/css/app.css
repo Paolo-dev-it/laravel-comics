@@ -211,3 +211,23 @@ li {
   width: 90%;
   margin: auto;
 }
+
+.single-cont {
+  width: 70%;
+  margin: auto;
+  padding: 50px;
+}
+
+.price {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-price, .right-price {
+  display: flex;
+}
+
+.card-desc {
+  color: black;
+}
